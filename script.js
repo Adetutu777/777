@@ -23,6 +23,6 @@ function calculate(parameter){
 	console.log(calc);
 }
 
-calculate(50);
 calculate(100);
+calculate(50);
 
