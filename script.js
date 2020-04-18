@@ -5,6 +5,10 @@ function calculate(parameter){
 		calc.push("yu-gi-oh");
 		else if (i%2==0 && i%3==0) 
 			calc.push("yu-gi");
+		else if (i%2==0 && i%5==0) 
+			calc.push("yu-oh");
+		else if (i%3==0 && i%5==0) 
+			calc.push("gi-oh");
 		else if(i % 2==0)
 			calc.push("yu");
 		else if (i % 3==0) 
@@ -19,8 +23,6 @@ function calculate(parameter){
 	console.log(calc);
 }
 
-calculate(100);
 calculate(50);
-
-
+calculate(100);
 
